@@ -64,7 +64,8 @@ function buy() {
           ], function(error) {
             if (error) throw error;
             console.log("You bought " + parseInt(answer.quantity) + " " + chosenItem.item_name + "(s)");
-            console.log("Your total is " + "$" + (chosenItem.price * parseInt(answer.quantity)));   
+            console.log("Your total is " + "$" + (chosenItem.price * parseInt(answer.quantity))); 
+            console.log("There are " + (chosenItem.inventory - parseInt(answer.quantity)) + " out of " + parseInt(chosenItem.inventory) + " " + chosenItem.item_name + "s left.");   
           } 
         );
       }

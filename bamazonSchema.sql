@@ -12,19 +12,19 @@ CREATE TABLE selling(
   PRIMARY KEY (id)
 );
 
-INSERT INTO selling (item_name, price)
-VALUES ("TV", 1500);
-INSERT INTO selling (item_name, price)
-VALUES ("Desk", 300);
-INSERT INTO selling (item_name, price)
-VALUES ("Laptop", 2500);
-INSERT INTO selling (item_name, price)
-VALUES ("Bed", 5000);
-INSERT INTO selling (item_name, price)
-VALUES ("Dining Table", 3500);
-INSERT INTO selling (item_name, price)
-VALUES ("Bar", 2400);
-INSERT INTO selling (item_name, price)
-VALUES ("Couch", 2000);
-INSERT INTO selling (item_name, price)
-VALUES ("Fishing Pole", 50);
+INSERT INTO selling (item_name, price, inventory)
+VALUES ("TV", 1500, 50);
+INSERT INTO selling (item_name, price, inventory)
+VALUES ("Desk", 300, 80);
+INSERT INTO selling (item_name, price, inventory)
+VALUES ("Laptop", 2500, 100);
+INSERT INTO selling (item_name, price, inventory)
+VALUES ("Bed", 5000, 100);
+INSERT INTO selling (item_name, price, inventory)
+VALUES ("Dining Table", 3500, 750);
+INSERT INTO selling (item_name, price, inventory)
+VALUES ("Bar", 2400, 70);
+INSERT INTO selling (item_name, price, inventory)
+VALUES ("Couch", 2000, 90);
+INSERT INTO selling (item_name, price, inventory)
+VALUES ("Fishing Pole", 50, 750);
